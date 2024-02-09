@@ -108,18 +108,29 @@ L'analyse de code, aussi connue sous le nom d'analyse statique de code (SAST), e
 
 ## Proxy et Interception
 
+Ces outils agissent comme des intermédiaires, capturant le trafic HTTP/HTTPS pour permettre une analyse détaillée des requêtes et des réponses. Ils sont particulièrement utiles pour comprendre les communications de l'application, tester la gestion des sessions, les vulnérabilités d'injection, et d'autres problématiques de sécurité.
+
 ### Outils Basés sur le Navigateur
 
-- **WebScarab**: Un framework pour l'analyse des applications qui communiquent en utilisant le protocole HTTP et HTTPS.
-  - Accès: WebScarab est désormais une partie de OWASP ZAP, accessible via [OWASP ZAP](https://www.zaproxy.org/docs/desktop/addons/webscarab/)
+#### WebScarab
+
+- **Description**: Bien que WebScarab soit maintenant principalement intégré dans des outils plus complets comme OWASP ZAP, il a historiquement servi comme un outil de proxy et d'analyse HTTP/HTTPS. Il permet de visualiser et de modifier les requêtes et les réponses entre le navigateur et le serveur web.
+- **Exemple d'Utilisation**: Utilisez WebScarab comme un proxy entre votre navigateur et Internet pour intercepter le trafic. Cela permet d'analyser et de modifier les requêtes HTTP/HTTPS pour tester les réponses du serveur.
+- **Ressources**: Bien que WebScarab soit moins actif en tant que projet indépendant, vous pouvez trouver des informations sur son utilisation dans le cadre de [OWASP ZAP](https://www.zaproxy.org/docs/desktop/addons/webscarab/).
 
 ### Outils à Installer
 
-- **Fiddler**: Un proxy web gratuit qui permet d'inspecter le trafic HTTP, de définir des points d'arrêt, et de manipuler les données.
-  - Installation: Disponible sur [Telerik](https://www.telerik.com/download/fiddler)
+#### Fiddler
 
-- **Wireshark**: Un analyseur de réseau qui permet de capturer et d'interagir en temps réel avec le trafic Internet.
-  - Installation: Disponible sur [Wireshark](https://www.wireshark.org/download.html)
+- **Description**: Fiddler est un outil de proxy web gratuit qui permet d'inspecter le trafic HTTP/HTTPS, de définir des points d'arrêt, et de manipuler les données. Il est largement utilisé pour le débogage web, les tests de performance, et la sécurité.
+- **Exemple d'Utilisation**: Configurez votre navigateur ou votre application pour utiliser Fiddler comme proxy. Fiddler capturera alors le trafic, permettant l'inspection et la modification des requêtes et des réponses.
+- **Ressources**: Le [site officiel de Fiddler](https://www.telerik.com/download/fiddler) fournit des liens de téléchargement, des tutoriels, et une documentation complète.
+
+#### Wireshark
+
+- **Description**: Wireshark est un analyseur de protocole réseau puissant qui permet de capturer et d'inspecter en détail le trafic réseau. Bien qu'il ne soit pas un proxy à proprement parler, il est essentiel pour analyser le trafic réseau et comprendre les communications entre le client et le serveur.
+- **Exemple d'Utilisation**: Lancez Wireshark et commencez à capturer le trafic sur votre interface réseau. Vous pouvez utiliser des filtres pour se concentrer sur le trafic HTTP/HTTPS et analyser les données capturées pour identifier des vulnérabilités potentielles.
+- **Ressources**: Le [site officiel de Wireshark](https://www.wireshark.org/download.html) offre des instructions de téléchargement et d'installation, ainsi qu'une vaste documentation et des tutoriels.
 
 ## Outils Cryptographiques
 
