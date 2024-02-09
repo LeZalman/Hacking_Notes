@@ -4,38 +4,38 @@ Memo outils et usages
 ## Table des Matières
 
 - **[Analyse de Vulnérabilités](#analyse-de-vulnérabilités)**
-  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur---analyse-de-vulnérabilités)
+  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur)
     - [Qualys SSL Labs (SSL Test)](#qualys-ssl-labs-ssl-test)
     - [SecurityHeaders](#securityheaders)
-  - [Outils à Installer](#outils-à-installer---analyse-de-vulnérabilités)
+  - [Outils à Installer](#outils-à-installer)
     - [OWASP ZAP (Zed Attack Proxy)](#owasp-zap-zed-attack-proxy)
     - [Nikto](#nikto)
 
 - **[Test de Pénétration](#test-de-pénétration)**
-  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur---test-de-pénétration)
+  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur)
     - [Pentest-Tools.com](#pentest-toolscom)
     - [Hackertarget](#hackertarget)
-  - [Outils à Installer](#outils-à-installer---test-de-pénétration)
+  - [Outils à Installer](#outils-à-installer)
     - [Metasploit Framework](#metasploit-framework)
     - [Burp Suite](#burp-suite)
 
 - **[Outils d'Analyse de Code](#outils-danalyse-de-code)**
-  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur---analyse-de-code)
+  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur)
     - [SonarCloud](#sonarcloud)
     - [Codacy](#codacy)
-  - [Outils à Installer](#outils-à-installer---analyse-de-code)
+  - [Outils à Installer](#outils-à-installer)
     - [SonarQube](#sonarqube)
     - [Fortify](#fortify)
 
 - **[Proxy et Interception](#proxy-et-interception)**
-  - [Outils à Installer](#outils-à-installer---proxy-et-interception)
+  - [Outils à Installer](#outils-à-installer)
     - [Fiddler](#fiddler)
     - [Wireshark](#wireshark)
 
 - **[Outils Cryptographiques](#outils-cryptographiques)**
-  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur---outils-cryptographiques)
+  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur)
     - [Cryptr](#cryptr)
-  - [Outils à Installer](#outils-à-installer---outils-cryptographiques)
+  - [Outils à Installer](#outils-à-installer)
     - [Gpg4win](#gpg4win)
     - [OpenSSL](#openssl)
 
@@ -47,7 +47,7 @@ Memo outils et usages
     - [Nmap](#nmap)
 
 - **[Scripts et Outils Divers](#scripts-et-outils-divers)**
-  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur---scripts-et-outils-divers)
+  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur)
     - [Regex101](#regex101)
     
 ## Analyse de Vulnérabilités
