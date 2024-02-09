@@ -198,17 +198,13 @@ Ces outils sont utilisés pour chiffrer et déchiffrer des données, générer d
 - **Exemple d'Utilisation**: Utilisez OpenSSL en ligne de commande pour générer des paires de clés, créer des demandes de signature de certificat (CSR), tester la validité des certificats SSL, et chiffrer ou déchiffrer des données.
 - **Ressources**: La [documentation OpenSSL](https://www.openssl.org/docs/) fournit des informations complètes sur l'utilisation de ses nombreuses commandes et options.
 
-## Scripts et Outils Divers
+## Reconnaissance
 
-Ces outils et scripts offrent des fonctionnalités spécialisées qui complètent les catégories précédentes, aidant les professionnels de la sécurité à mener des évaluations complètes et à appliquer des méthodes de test variées pour identifier et atténuer les vulnérabilités.
+La reconnaissance est une phase préliminaire cruciale dans le processus d'ethical hacking, où l'attaquant recueille des informations sur la cible avant de lancer une attaque. Cette étape peut être divisée en reconnaissance passive, où l'attaquant recueille des informations sans interagir directement avec la cible, et en reconnaissance active, où l'attaquant engage la cible pour obtenir des données.
 
-### Outils Basés sur le Navigateur
+### Reconnaissance Passive
 
-#### Regex101
-
-- **Description**: Regex101 est un outil en ligne puissant pour tester et déboguer des expressions régulières. Il offre une interface conviviale, des explications détaillées pour chaque partie de l'expression régulière, et un testeur de correspondance en temps réel.
-- **Exemple d'Utilisation**: Accédez à [Regex101](https://regex101.com/), sélectionnez le moteur d'expression régulière que vous utilisez (par exemple, PCRE, JavaScript), tapez votre expression régulière et testez-la avec des chaînes de test pour voir les correspondances et les captures.
-- **Ressources**: Regex101 fournit une bibliothèque d'expressions régulières partagées par la communauté, des quiz pour pratiquer, et une référence rapide des tokens d'expression régulière.
+La reconnaissance passive implique la collecte d'informations sans envoyer de données directement à la cible, minimisant ainsi le risque de détection.
 
 #### DNSdumpster
 
@@ -222,14 +218,29 @@ Ces outils et scripts offrent des fonctionnalités spécialisées qui complèten
 - **Exemple d'Utilisation**: Accédez à [Shodan.io](https://www.shodan.io/), créez un compte gratuit pour obtenir des fonctionnalités de base, puis utilisez la barre de recherche pour trouver des informations sur des appareils spécifiques ou des plages d'IP. Shodan fournit des filtres et des requêtes avancées pour affiner les résultats.
 - **Ressources**: Le site de Shodan propose une documentation complète, y compris des guides sur la façon de commencer, des exemples de requêtes, et des conseils sur l'interprétation des données recueillies.
 
+### Reconnaissance Active
 
-### Outils à Installer
+La reconnaissance active implique une interaction directe avec la cible pour recueillir des informations, ce qui peut potentiellement alerter la cible de l'activité d'analyse.
 
 #### Nmap
 
 - **Description**: Nmap ("Network Mapper") est un outil open-source pour l'exploration de réseau et l'audit de sécurité. Il est utilisé pour découvrir des hôtes et services sur un réseau informatique, en construisant une "carte" du réseau.
 - **Exemple d'Utilisation**: Utilisez Nmap en ligne de commande pour scanner des plages d'adresses IP, découvrir des hôtes actifs, les services qu'ils exécutent (et leurs versions), les types de pare-feux utilisés, et d'autres caractéristiques du réseau.
 - **Ressources**: Le [site officiel de Nmap](https://nmap.org/) offre une documentation complète, des guides, et une communauté active pour le support.
+
+## Scripts et Outils Divers
+
+Ces outils et scripts offrent des fonctionnalités spécialisées qui complètent les catégories précédentes, aidant les professionnels de la sécurité à mener des évaluations complètes et à appliquer des méthodes de test variées pour identifier et atténuer les vulnérabilités.
+
+### Outils Basés sur le Navigateur
+
+#### Regex101
+
+- **Description**: Regex101 est un outil en ligne puissant pour tester et déboguer des expressions régulières. Il offre une interface conviviale, des explications détaillées pour chaque partie de l'expression régulière, et un testeur de correspondance en temps réel.
+- **Exemple d'Utilisation**: Accédez à [Regex101](https://regex101.com/), sélectionnez le moteur d'expression régulière que vous utilisez (par exemple, PCRE, JavaScript), tapez votre expression régulière et testez-la avec des chaînes de test pour voir les correspondances et les captures.
+- **Ressources**: Regex101 fournit une bibliothèque d'expressions régulières partagées par la communauté, des quiz pour pratiquer, et une référence rapide des tokens d'expression régulière.
+
+### Outils à Installer
 
 #### John the Ripper
 
