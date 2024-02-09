@@ -28,8 +28,6 @@ Memo outils et usages
     - [Fortify](#fortify)
 
 - **[Proxy et Interception](#proxy-et-interception)**
-  - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur---proxy-et-interception)
-    - [WebScarab](#webscarab)
   - [Outils à Installer](#outils-à-installer---proxy-et-interception)
     - [Fiddler](#fiddler)
     - [Wireshark](#wireshark)
@@ -41,15 +39,17 @@ Memo outils et usages
     - [Gpg4win](#gpg4win)
     - [OpenSSL](#openssl)
 
+- **[Reconnaissance](#reconnaissance)**
+  - [Reconnaissance Passive](#reconnaissance-passive)
+    - [Shodan.io](#shodanio)
+    - [DNSdumpster](#dnsdumpster)
+  - [Reconnaissance Active](#reconnaissance-active)
+    - [Nmap](#nmap)
+
 - **[Scripts et Outils Divers](#scripts-et-outils-divers)**
   - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur---scripts-et-outils-divers)
     - [Regex101](#regex101)
-    - [DNSdumpster](#dnsdumpster)
-    - [Shodan.io](#shodanio)
-  - [Outils à Installer](#outils-à-installer---scripts-et-outils-divers)
-    - [Nmap](#nmap)
-    - [John the Ripper](#john-the-ripper)
-
+    
 ## Analyse de Vulnérabilités
 
 L'analyse de vulnérabilités est cruciale dans l'ethical hacking et la cybersécurité pour identifier, classer, et prioriser les vulnérabilités potentielles dans les systèmes informatiques. Elle aide à prévenir les attaques non autorisées en fournissant des corrections ou des atténuations avant qu'un attaquant ne puisse les exploiter.
