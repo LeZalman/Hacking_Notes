@@ -45,10 +45,10 @@ Memo outils et usages
   - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur---scripts-et-outils-divers)
     - [Regex101](#regex101)
     - [DNSdumpster](#dnsdumpster)
+    - [Shodan.io](#shodanio)
   - [Outils à Installer](#outils-à-installer---scripts-et-outils-divers)
     - [Nmap](#nmap)
     - [John the Ripper](#john-the-ripper)
-
 
 ## Analyse de Vulnérabilités
 
@@ -215,6 +215,13 @@ Ces outils et scripts offrent des fonctionnalités spécialisées qui complèten
 - **Description**: DNSdumpster est un outil en ligne gratuit qui permet d'effectuer des recherches DNS approfondies, offrant une visualisation graphique des relations DNS d'un domaine. Il est idéal pour identifier les sous-domaines, les serveurs de messagerie, les enregistrements MX, et plus encore, ce qui peut être précieux pour les phases de reconnaissance lors des tests de pénétration.
 - **Exemple d'Utilisation**: Visitez le site web [DNSdumpster](https://dnsdumpster.com/), entrez le nom de domaine cible, et lancez l'analyse pour obtenir une carte détaillée de la configuration DNS du domaine, y compris les sous-domaines, les serveurs de messagerie, et autres points d'intérêt.
 - **Ressources**: Le site web de DNSdumpster offre un accès direct à l'outil et fournit des exemples de rapports de recherche DNS pour différents domaines.
+
+#### Shodan.io
+
+- **Description**: Shodan.io est surnommé le "moteur de recherche pour les pirates" ou le "Google pour les appareils connectés à Internet". Il scanne le Web et collecte des informations sur des appareils connectés à Internet, y compris des serveurs, des webcams, des imprimantes, et bien plus encore. Shodan est largement utilisé pour la reconnaissance dans les tests de pénétration et la recherche en sécurité, offrant une perspective unique sur les appareils exposés sur Internet.
+- **Exemple d'Utilisation**: Accédez à [Shodan.io](https://www.shodan.io/), créez un compte gratuit pour obtenir des fonctionnalités de base, puis utilisez la barre de recherche pour trouver des informations sur des appareils spécifiques ou des plages d'IP. Shodan fournit des filtres et des requêtes avancées pour affiner les résultats.
+- **Ressources**: Le site de Shodan propose une documentation complète, y compris des guides sur la façon de commencer, des exemples de requêtes, et des conseils sur l'interprétation des données recueillies.
+
 
 ### Outils à Installer
 
