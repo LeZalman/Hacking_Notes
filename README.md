@@ -44,21 +44,35 @@ L'analyse de vulnérabilités est cruciale dans l'ethical hacking et la cybersé
 
 ## Test de Pénétration
 
+Le test de pénétration implique une évaluation active de la sécurité de votre infrastructure informatique en exploitant les vulnérabilités. Cela peut inclure l'exécution de code malveillant, la violation de systèmes d'authentification, et l'examen des applications web pour des failles de sécurité.
+
 ### Outils Basés sur le Navigateur
 
-- **Pentest-Tools.com**: Offre une gamme d'outils de test de pénétration en ligne pour scanner les sites web et trouver des vulnérabilités.
-  - Accès: [Pentest-Tools.com](https://pentest-tools.com/)
+#### Pentest-Tools.com
 
-- **Hackertarget**: Fournit des outils de test de pénétration et de scan de réseau en ligne.
-  - Accès: [Hacker Target](https://hackertarget.com/)
+- **Description**: Pentest-Tools.com offre une gamme d'outils de test de pénétration en ligne qui permettent de scanner les sites web et les réseaux pour trouver des vulnérabilités et des failles de sécurité. Les outils couvrent les scans de réseau, les tests de site web, les scans de serveur, et plus.
+- **Exemple d'Utilisation**: Accédez à [Pentest-Tools.com](https://pentest-tools.com/), sélectionnez l'outil désiré, et entrez l'adresse du site web ou de la cible réseau pour lancer le scan.
+- **Ressources**: Le site offre des guides d'utilisation pour chaque outil, ainsi que des options d'abonnement pour des fonctionnalités avancées.
+
+#### Hackertarget
+
+- **Description**: Hackertarget propose une suite d'outils de test de pénétration et de scan de réseau en ligne, permettant aux utilisateurs de réaliser des scans de ports, des tests de sécurité de site web, des analyses de serveur DNS, et plus encore.
+- **Exemple d'Utilisation**: Rendez-vous sur [Hacker Target](https://hackertarget.com/) et choisissez parmi les outils disponibles pour commencer votre analyse.
+- **Ressources**: Hacker Target fournit des tutoriels et des informations sur l'utilisation de chaque outil pour optimiser vos tests de pénétration.
 
 ### Outils à Installer
 
-- **Metasploit Framework**: Un outil avancé pour développer et exécuter des exploits contre une machine distante.
-  - Installation: Disponible sur [Metasploit](https://www.metasploit.com/download)
+#### Metasploit Framework
 
-- **Burp Suite**: Une suite intégrée de tests de pénétration pour les applications web.
-  - Installation: Disponible sur [PortSwigger](https://portswigger.net/burp/communitydownload)
+- **Description**: Metasploit est l'un des outils de test de pénétration les plus utilisés dans le monde. Il fournit une plateforme pour développer, tester et exécuter des exploits contre des cibles distantes.
+- **Exemple d'Utilisation**: Après l'installation, vous pouvez utiliser la console `msfconsole` pour sélectionner et configurer un exploit, définir une cible, et exécuter l'exploit pour tester la vulnérabilité.
+- **Ressources**: [Metasploit](https://www.metasploit.com/download) dispose d'une large documentation, y compris des guides de démarrage, des tutoriels, et une communauté active pour le support.
+
+#### Burp Suite
+
+- **Description**: Burp Suite est une suite intégrée de divers outils de test de pénétration pour les applications web. Elle est utilisée pour effectuer des attaques manuelles et automatisées contre des applications web pour identifier les vulnérabilités.
+- **Exemple d'Utilisation**: Après l'installation de Burp Suite, configurez votre navigateur pour utiliser Burp comme proxy, puis naviguez sur votre application web. Burp interceptera le trafic et vous permettra d'examiner, de modifier et de rejouer les requêtes.
+- **Ressources**: [PortSwigger](https://portswigger.net/burp/communitydownload) offre une documentation complète, des didacticiels et une communauté pour aider les utilisateurs à maîtriser Burp Suite.
 
 ## Outils d'Analyse de Code
 
