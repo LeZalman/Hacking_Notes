@@ -44,9 +44,11 @@ Memo outils et usages
 - **[Scripts et Outils Divers](#scripts-et-outils-divers)**
   - [Outils Basés sur le Navigateur](#outils-basés-sur-le-navigateur---scripts-et-outils-divers)
     - [Regex101](#regex101)
+    - [DNSdumpster](#dnsdumpster)
   - [Outils à Installer](#outils-à-installer---scripts-et-outils-divers)
     - [Nmap](#nmap)
     - [John the Ripper](#john-the-ripper)
+
 
 ## Analyse de Vulnérabilités
 
@@ -207,6 +209,12 @@ Ces outils et scripts offrent des fonctionnalités spécialisées qui complèten
 - **Description**: Regex101 est un outil en ligne puissant pour tester et déboguer des expressions régulières. Il offre une interface conviviale, des explications détaillées pour chaque partie de l'expression régulière, et un testeur de correspondance en temps réel.
 - **Exemple d'Utilisation**: Accédez à [Regex101](https://regex101.com/), sélectionnez le moteur d'expression régulière que vous utilisez (par exemple, PCRE, JavaScript), tapez votre expression régulière et testez-la avec des chaînes de test pour voir les correspondances et les captures.
 - **Ressources**: Regex101 fournit une bibliothèque d'expressions régulières partagées par la communauté, des quiz pour pratiquer, et une référence rapide des tokens d'expression régulière.
+
+#### DNSdumpster
+
+- **Description**: DNSdumpster est un outil en ligne gratuit qui permet d'effectuer des recherches DNS approfondies, offrant une visualisation graphique des relations DNS d'un domaine. Il est idéal pour identifier les sous-domaines, les serveurs de messagerie, les enregistrements MX, et plus encore, ce qui peut être précieux pour les phases de reconnaissance lors des tests de pénétration.
+- **Exemple d'Utilisation**: Visitez le site web [DNSdumpster](https://dnsdumpster.com/), entrez le nom de domaine cible, et lancez l'analyse pour obtenir une carte détaillée de la configuration DNS du domaine, y compris les sous-domaines, les serveurs de messagerie, et autres points d'intérêt.
+- **Ressources**: Le site web de DNSdumpster offre un accès direct à l'outil et fournit des exemples de rapports de recherche DNS pour différents domaines.
 
 ### Outils à Installer
 
