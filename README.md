@@ -134,18 +134,29 @@ Ces outils agissent comme des intermédiaires, capturant le trafic HTTP/HTTPS po
 
 ## Outils Cryptographiques
 
+Ces outils sont utilisés pour chiffrer et déchiffrer des données, générer des clés cryptographiques, signer numériquement des documents et des messages, et vérifier l'authenticité des signatures numériques. Ils sont cruciaux pour les tests de sécurité liés à la gestion des certificats SSL/TLS, au stockage sécurisé des données, et à la communication sécurisée.
+
 ### Outils Basés sur le Navigateur
 
-- **Cryptr**: Un outil simple et pratique pour chiffrer et déchiffrer des textes directement dans votre navigateur.
-  - Accès: [Cryptr](https://cryptr.co/)
+#### Cryptr
+
+- **Description**: Cryptr est un outil simple et accessible via un navigateur pour chiffrer et déchiffrer des textes en utilisant divers algorithmes. Bien qu'il soit pratique pour des opérations de cryptographie de base, il ne doit pas être utilisé pour des besoins de sécurité critiques en raison de l'environnement moins sécurisé des navigateurs.
+- **Exemple d'Utilisation**: Accédez à Cryptr, choisissez un algorithme de chiffrement, entrez votre texte, et utilisez une clé pour chiffrer ou déchiffrer le message.
+- **Ressources**: Vous pouvez utiliser Cryptr directement sur leur site web [Cryptr.co](https://cryptr.co/), sans besoin d'installation ni de configuration.
 
 ### Outils à Installer
 
-- **Gpg4win**: Un ensemble d'outils de cryptographie pour Windows, incluant GnuPG, Kleopatra, et d'autres outils pour le chiffrement et la signature.
-  - Installation: Disponible sur [Gpg4win](https://www.gpg4win.org/download.html)
+#### Gpg4win
 
-- **OpenSSL**: Un outil robuste, complet et open-source pour les applications SSL/TLS.
-  - Installation: Instructions sur [OpenSSL](https://www.openssl.org/source/)
+- **Description**: Gpg4win (GNU Privacy Guard for Windows) est un ensemble d'outils de cryptographie pour Windows, qui inclut GnuPG, Kleopatra (une interface graphique pour GnuPG), et d'autres outils pour le chiffrement et la signature numérique des e-mails et des fichiers.
+- **Exemple d'Utilisation**: Installez Gpg4win, utilisez Kleopatra pour gérer vos clés, ou utilisez GnuPG en ligne de commande pour chiffrer, déchiffrer, signer ou vérifier des fichiers ou des e-mails.
+- **Ressources**: Le [site officiel de Gpg4win](https://www.gpg4win.org/) fournit des liens de téléchargement, une documentation, et des guides pour commencer.
+
+#### OpenSSL
+
+- **Description**: OpenSSL est une boîte à outils de cryptographie robuste utilisée pour implémenter les protocoles SSL et TLS et pour servir de bibliothèque cryptographique générale. Elle est largement utilisée pour générer des clés, créer des CSR, installer des certificats SSL/TLS, et tester la sécurité des connexions SSL/TLS.
+- **Exemple d'Utilisation**: Utilisez OpenSSL en ligne de commande pour générer des paires de clés, créer des demandes de signature de certificat (CSR), tester la validité des certificats SSL, et chiffrer ou déchiffrer des données.
+- **Ressources**: La [documentation OpenSSL](https://www.openssl.org/docs/) fournit des informations complètes sur l'utilisation de ses nombreuses commandes et options.
 
 ## Scripts et Outils Divers
 
