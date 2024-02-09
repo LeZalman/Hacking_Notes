@@ -12,21 +12,35 @@ Memo outils et usages
 
 ## Analyse de Vulnérabilités
 
+L'analyse de vulnérabilités est cruciale dans l'ethical hacking et la cybersécurité pour identifier, classer, et prioriser les vulnérabilités potentielles dans les systèmes informatiques. Elle aide à prévenir les attaques non autorisées en fournissant des corrections ou des atténuations avant qu'un attaquant ne puisse les exploiter.
+
 ### Outils Basés sur le Navigateur
 
-- **Qualys SSL Labs (SSL Test)**: Un service gratuit qui effectue une analyse détaillée de la configuration de SSL/TLS de votre serveur web.
-  - Accès: [Qualys SSL Labs](https://www.ssllabs.com/ssltest/)
+#### Qualys SSL Labs (SSL Test)
 
-- **SecurityHeaders**: Évalue rapidement les en-têtes HTTP de sécurité de votre site web.
-  - Accès: [Security Headers](https://securityheaders.com/)
+- **Description**: SSL Labs de Qualys est un service en ligne qui effectue une analyse profonde de la configuration SSL/TLS de n'importe quel serveur web public. Il donne une note (A, B, C, etc.) basée sur la qualité de la configuration.
+- **Exemple d'Utilisation**: Accédez simplement à [Qualys SSL Labs](https://www.ssllabs.com/ssltest/) et entrez l'URL de votre serveur pour démarrer l'analyse.
+- **Ressources**: La page principale de SSL Labs fournit des directives et des explications détaillées sur les résultats des tests.
+
+#### SecurityHeaders
+
+- **Description**: SecurityHeaders est un outil en ligne qui vérifie les en-têtes de sécurité d'un site web. Il vérifie les en-têtes HTTP de sécurité du site et fournit un score basé sur leur mise en œuvre.
+- **Exemple d'Utilisation**: Entrez l'URL de votre site sur [Security Headers](https://securityheaders.com/) pour obtenir une analyse rapide.
+- **Ressources**: Le site propose des conseils pour améliorer les scores en ajoutant ou en configurant des en-têtes de sécurité.
 
 ### Outils à Installer
 
-- **OWASP ZAP (Zed Attack Proxy)**: Un outil open-source pour tester automatiquement la sécurité des applications web.
-  - Installation: Disponible sur [OWASP ZAP](https://www.zaproxy.org/download/)
+#### OWASP ZAP (Zed Attack Proxy)
 
-- **Nikto**: Un scanner de serveur web qui teste les serveurs web pour trouver des logiciels dangereux, des fichiers mal configurés, et d'autres problèmes.
-  - Installation: Instructions sur [GitHub](https://github.com/sullo/nikto)
+- **Description**: ZAP est un outil open-source de test de sécurité d'application web. Il aide à trouver automatiquement des failles de sécurité dans vos applications web pendant que vous développez et testez vos applications.
+- **Exemple d'Utilisation**: Après l'installation, vous pouvez démarrer ZAP, configurer votre navigateur pour utiliser ZAP comme proxy, puis naviguer sur votre application web pour que ZAP puisse l'analyser et identifier les vulnérabilités.
+- **Ressources**: [OWASP ZAP](https://www.zaproxy.org/download/) offre une documentation complète, des tutoriels et des vidéos pour bien démarrer.
+
+#### Nikto
+
+- **Description**: Nikto est un scanner de serveur web open-source qui effectue des tests complets contre des serveurs web pour trouver des problèmes potentiels, y compris des fichiers dangereux et des configurations incorrectes.
+- **Exemple d'Utilisation**: Lancez Nikto à partir de la ligne de commande avec `nikto -h www.votre_site.com` pour scanner votre site web.
+- **Ressources**: La [page GitHub de Nikto](https://github.com/sullo/nikto) fournit des instructions d'installation et d'utilisation détaillées.
 
 ## Test de Pénétration
 
