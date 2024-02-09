@@ -160,16 +160,26 @@ Ces outils sont utilisés pour chiffrer et déchiffrer des données, générer d
 
 ## Scripts et Outils Divers
 
+Ces outils et scripts offrent des fonctionnalités spécialisées qui complètent les catégories précédentes, aidant les professionnels de la sécurité à mener des évaluations complètes et à appliquer des méthodes de test variées pour identifier et atténuer les vulnérabilités.
+
 ### Outils Basés sur le Navigateur
 
-- **Regex101**: Un outil en ligne pour tester vos expressions régulières dans différents moteurs de regex.
-  - Accès: [Regex101](https://regex101.com/)
+#### Regex101
+
+- **Description**: Regex101 est un outil en ligne puissant pour tester et déboguer des expressions régulières. Il offre une interface conviviale, des explications détaillées pour chaque partie de l'expression régulière, et un testeur de correspondance en temps réel.
+- **Exemple d'Utilisation**: Accédez à [Regex101](https://regex101.com/), sélectionnez le moteur d'expression régulière que vous utilisez (par exemple, PCRE, JavaScript), tapez votre expression régulière et testez-la avec des chaînes de test pour voir les correspondances et les captures.
+- **Ressources**: Regex101 fournit une bibliothèque d'expressions régulières partagées par la communauté, des quiz pour pratiquer, et une référence rapide des tokens d'expression régulière.
 
 ### Outils à Installer
 
-- **Nmap**: Un outil de cartographie réseau utilisé pour découvrir des hôtes et des services sur un réseau informatique.
-  - Installation: Disponible sur [Nmap](https://nmap.org/download.html)
+#### Nmap
 
-- **John the Ripper**: Un outil de craquage de mots de passe rapide.
-  - Installation: Instructions sur [Openwall](https://www.openwall.com/john/)
+- **Description**: Nmap ("Network Mapper") est un outil open-source pour l'exploration de réseau et l'audit de sécurité. Il est utilisé pour découvrir des hôtes et services sur un réseau informatique, en construisant une "carte" du réseau.
+- **Exemple d'Utilisation**: Utilisez Nmap en ligne de commande pour scanner des plages d'adresses IP, découvrir des hôtes actifs, les services qu'ils exécutent (et leurs versions), les types de pare-feux utilisés, et d'autres caractéristiques du réseau.
+- **Ressources**: Le [site officiel de Nmap](https://nmap.org/) offre une documentation complète, des guides, et une communauté active pour le support.
 
+#### John the Ripper
+
+- **Description**: John the Ripper est un outil de craquage de mots de passe rapide, conçu pour aider à récupérer des mots de passe perdus ou à tester la robustesse des mots de passe. Il est célèbre pour sa capacité à détecter automatiquement différents types de hashage de mots de passe et à s'adapter à des modèles de craquage personnalisés.
+- **Exemple d'Utilisation**: Après avoir récupéré des hashs de mots de passe d'un système, utilisez John the Ripper pour essayer de les "casser" en utilisant diverses techniques, allant des attaques par dictionnaire aux attaques par force brute, en passant par les attaques hybrides.
+- **Ressources**: La [documentation de John the Ripper](https://www.openwall.com/john/) fournit des instructions sur l'installation, l'utilisation, et la configuration de l'outil pour différents scénarios de craquage de mots de passe.
