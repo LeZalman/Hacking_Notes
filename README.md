@@ -76,21 +76,35 @@ Le test de pénétration implique une évaluation active de la sécurité de vot
 
 ## Outils d'Analyse de Code
 
+L'analyse de code, aussi connue sous le nom d'analyse statique de code (SAST), examine le code source à la recherche de modèles qui pourraient indiquer des problèmes de sécurité. Contrairement aux tests de pénétration et à l'analyse dynamique, l'analyse de code ne nécessite pas l'exécution de l'application.
+
 ### Outils Basés sur le Navigateur
 
-- **SonarCloud**: Version cloud de SonarQube pour l'analyse de code continu.
-  - Accès: [SonarCloud](https://sonarcloud.io/)
+#### SonarCloud
 
-- **Codacy**: Plateforme automatisée de revue de code qui identifie les problèmes de sécurité, de performance, et de fiabilité.
-  - Accès: [Codacy](https://www.codacy.com/)
+- **Description**: SonarCloud est un service d'analyse de code en ligne qui fournit une analyse automatique pour détecter les bugs, les vulnérabilités, et les "code smells" dans votre code source. Il prend en charge une multitude de langages de programmation et s'intègre avec des systèmes de CI/CD comme GitHub Actions, Azure DevOps, et Bitbucket Pipelines.
+- **Exemple d'Utilisation**: Connectez votre dépôt de code source à SonarCloud, configurez le fichier de configuration `.sonarcloud.properties` si nécessaire, et lancez une analyse à chaque push ou pull request pour obteniser un rapport d'analyse de code.
+- **Ressources**: [SonarCloud](https://sonarcloud.io/) offre une documentation complète pour vous aider à configurer et à utiliser le service efficacement.
+
+#### Codacy
+
+- **Description**: Codacy est une plateforme automatisée de revue de code qui identifie les problèmes de sécurité, de performance, et de fiabilité dans votre code. Elle prend en charge de nombreux langages de programmation et s'intègre avec les principaux outils de gestion de code source comme GitHub, GitLab, et Bitbucket.
+- **Exemple d'Utilisation**: Intégrez votre projet avec Codacy, et il commencera automatiquement à analyser chaque commit et pull request pour des problèmes de code et de sécurité. Codacy fournit ensuite un rapport détaillé avec des recommandations pour améliorer la qualité de votre code.
+- **Ressources**: La [documentation de Codacy](https://support.codacy.com/hc/en-us) guide les utilisateurs à travers le processus d'intégration et d'utilisation de l'outil.
 
 ### Outils à Installer
 
-- **SonarQube**: Analyse de code source pour détecter les bugs, les vulnérabilités et les mauvaises pratiques de codage dans plus de 20 langages de programmation.
-  - Installation: Instructions sur [SonarQube](https://www.sonarqube.org/downloads/)
+#### SonarQube
 
-- **Fortify**: Un outil d'analyse statique qui identifie les vulnérabilités dans le code source.
-  - Installation: Détails disponibles sur le [site officiel de Fortify](https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer)
+- **Description**: SonarQube est un outil open-source leader pour l'analyse de qualité de code continu. Il identifie les bugs, les vulnérabilités, et les mauvaises pratiques de codage dans plus de 20 langages de programmation. SonarQube permet aux équipes de développement de suivre et d'améliorer la qualité de leur code base au fil du temps.
+- **Exemple d'Utilisation**: Installez SonarQube sur votre serveur, configurez votre projet pour utiliser SonarScanner, et exécutez une analyse pour obtenir un rapport détaillé sur la qualité de votre code et les problèmes de sécurité potentiels.
+- **Ressources**: Le [site officiel de SonarQube](https://www.sonarqube.org/downloads/) fournit des instructions d'installation, des guides d'utilisation, et une communauté pour le support.
+
+#### Fortify
+
+- **Description**: Fortify est un outil complet d'analyse statique de code qui identifie les failles de sécurité dans le code source des applications. Il prend en charge un large éventail de langages de programmation et offre des intégrations avec des outils de développement et des systèmes de CI/CD.
+- **Exemple d'Utilisation**: Après avoir installé Fortify, configurez-le pour analyser votre projet en spécifiant le chemin de votre code source et lancez l'analyse. Fortify générera un rapport détaillé avec des recommandations pour remédier aux vulnérabilités identifiées.
+- **Ressources**: Le [site officiel de Fortify](https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer) offre des informations sur les fonctionnalités, des tutoriels et une documentation pour vous aider à démarrer.
 
 ## Proxy et Interception
 
